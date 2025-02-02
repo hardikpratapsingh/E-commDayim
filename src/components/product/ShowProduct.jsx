@@ -8,8 +8,8 @@ const ShowProduct = () => {
   // Function to ensure correct image path
   const fixImagePath = (imgSrc) => {
     // Check if the imgSrc is valid and prepend the full URL if necessary
-    if (imgSrc && !imgSrc.startsWith("http")) {
-      return `http://localhost:1000${imgSrc}`;
+    if (imgSrc && !imgSrc.startsWith("https")) {
+      return `https://e-comdayimperfume.onrender.com/api${imgSrc}`;
     }
     return imgSrc;
   }

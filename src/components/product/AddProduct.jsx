@@ -228,7 +228,7 @@ const AddProduct = () => {
         formData.append("image", image); // Append the file to form data
 
         axios
-        .post("http://localhost:1000/api/product/add", formData, {
+        .post("https://e-comdayimperfume.onrender.com/api/product/add", formData, {
             headers: {
             "Content-Type": "multipart/form-data",  // Specify the correct content type
             },
