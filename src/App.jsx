@@ -63,11 +63,11 @@ import Address from './components/Address'
 import Checkout from './components/Checkout'
 import OrderConfirmation from './components/OrderConfirmation'
 //admin side
-import GetAllUser from "./components/user/GetAllUser";
-import AddProduct from "./components/product/AddProduct";
-import EditProduct from "./components/product/EditProduct";
-import ShowProductAdmin from "./components/product/ShowProductAdmin";
-import AllOrder from "./components/AllOrder";
+// import GetAllUser from "./components/user/GetAllUser";
+// import AddProduct from "./components/product/AddProduct";
+// import EditProduct from "./components/product/EditProduct";
+// import ShowProductAdmin from "./components/product/ShowProductAdmin";
+// import AllOrder from "./components/AllOrder";
 
 
 const App = () => {
@@ -88,11 +88,11 @@ const App = () => {
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/oderconfirmation" element={<OrderConfirmation />} />
         {/* Admin side */}
-        <Route path="/admin/users" element={<GetAllUser />} />
+        {/* <Route path="/admin/users" element={<GetAllUser />} />
         <Route path="/admin/addproduct" element={<AddProduct />} />
         <Route path="/admin/editproduct/:id" element={<EditProduct />} />
         <Route path="/admin/products" element={<ShowProductAdmin />} />
-        <Route path="/admin/orders" element={<AllOrder />} />
+        <Route path="/admin/orders" element={<AllOrder />} /> */}
       </Routes>
     </Router>
   );
